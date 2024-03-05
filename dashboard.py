@@ -6,7 +6,7 @@ def filter_data_by_station(data, station_name):
     filtered_data = data[data['station'] == station_name]
     return filtered_data
 
-all_df = pd.read_csv("./dashboard/all_data.csv")
+all_df = pd.read_csv("all_data.csv")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
